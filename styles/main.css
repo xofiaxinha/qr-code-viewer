@@ -1,0 +1,48 @@
+body{
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family: 'Century Gothic', sans-serif;
+}
+.container{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    height: 25rem;
+    width: 15rem;
+    background-color: #fff;
+    border-radius: 10px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px 10px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.qr-code > img{
+    width: 100%;
+    border-radius: 20px;
+}
+.caption{
+    text-align: center;
+    font-size: .8rem;
+}
+.caption #title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.attribution{
+    font-size: .7rem;
+    text-align: center;
+    color: rgb(55, 55, 56);
+}
+.attribution a{
+    color: #000;
+    text-decoration: none;
+}
+.attribution a:hover{
+    text-decoration: underline;
+}
